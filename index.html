@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontbox</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="menu-bg">
+            <nav class="menu">
+                <div class="menu_logo">
+                    <a href="index.html"><img src="logo.png" alt=""></a>
+                </div> <!--fim do menu logo-->
+                <div class="nav">
+                    <ul class="nav_lista">
+                        <li class="nav-item"><a href="#Somos" class="nav_link">Quem somos</a></li>
+                        <li class="nav-item"><a href="#Cursos" class="nav_link">Nossos cursos</a></li>
+                        <li class="nav-item"><a href="#Planos" class="nav_link">Planos</a></li>
+                        <li class="nav-item"><a href="#Vantagens" class="nav_link">Vantagens</a></li>
+                    </ul>
+                </div>
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="menu_white_36dp.svg" alt=""></button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#Somos" class="nav_link">Quem somos</a></li>
+                    <li class="nav-item"><a href="#Cursos" class="nav_link">Nossos cursos</a></li>
+                    <li class="nav-item"><a href="#Planos" class="nav_link">Planos</a></li>
+                    <li class="nav-item"><a href="#Vantagens" class="nav_link">Vantagens</a></li>
+                </ul>
+            </div>
+        </div>
+        <h1 class="intro">Aprenda a programar, <br/> um projeto por ver!</h1>
+
+        <hr>
+    </header>
+    
+    <section class="somos" id="somos">
+
+        <h2 class="sessao_titulo">Quem somos</h2>
+        <div class="somos_corpo">
+            <div class="somos_texto">
+                <p> 
+                    Mussum ipsum, cacildsvidis litroabertis. Posuere libero varius. Nullama nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+                </p>
+                <br>
+                <p>
+                    Mussum ipsum, cacildsvidis litroabertis. Posuere libero varius. Nullama nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+                </p>
+            </div>
+
+            <div class="somos_imagem">
+                <img src="somos.png" alt="Quem somos">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cursos" id="cursos">
+        <h2 class="sessao_titulo">Nossos cursos</h2>
+        <div class="curso_corpo">
+            <div class="curso">
+                <img src="ai.png" alt="Inteligencia artificial" class="curso_img">
+                <h3 class="curso_titulo">Inteligencia artificial</h3>
+                <p class="curso_descricao"> 
+                    Mussum ipsum, cacildsvidis litroabertis. Posuere libero varius. Nullama nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+                </p>
+            </div>
+            <div class="curso">
+                <img src="front.png" alt="Frontend" class="curso_img">
+                <h3 class="curso_titulo">Frontend</h3>
+                <p class="curso_descricao">
+                    Mussum ipsum, cacildsvidis litroabertis. Posuere libero varius. Nullama nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+                </p>
+            </div>
+                <div class="curso">
+                    <img src="seguranca.png" alt="Segurança da informacao " class="curso_img">
+                    <h3 class="curso_titulo">Segurança da informação</h3>
+                    <p class="curso_descricao">
+                       Mussum ipsum, cacildsvidis litroabertis. Posuere libero varius. Nullama nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+                    </p>
+                </div>
+        </div>
+    </section>
+
+    <section class="planos" id="planos">
+        <h2 class="sessao_titulo">Planos</h2>
+        <div class="planos_corpo">
+            <div class="plano">
+                <h2 class="plano__titulo">Basico</h2>
+                <span class="plano__preco"><sup>R$</sup>25</span>
+                <hr class="plano__divisor">
+                <ul class="plano-lista">
+                    <li class="plano-lista__item">1 mes de acesso ilimitado</a></li>
+                    <li class="plano-lista__item">Acesso a todos os cursos</a></li>
+                    <li class="plano-lista__item">Certificado de conclusão</a></li>
+                </ul>
+                <a href="#" class="plano__btn-comprar">Comprar</a>
+            </div>
+            <div class="plano">
+                <h2 class="plano__titulo">Premium</h2>
+                <span class="plano__preco"><sup>R$</sup>40</span>
+                <hr class="plano__divisor">
+                <ul class="plano-lista">
+                    <li class="plano-lista__item">1 mes de acesso ilimitado</a></li>
+                    <li class="plano-lista__item">Acesso a todos os cursos</a></li>
+                    <li class="plano-lista__item">Certificado de conclusão</a></li>
+                    <li class="plano-lista__item">Suporte</a></li>
+                </ul>
+                <a href="#" class="plano__btn-comprar">Comprar</a>
+            </div>
+            <div class="plano">
+                <h2 class="plano__titulo">Ultra</h2>
+                <span class="plano__preco"><sup>R$</sup>25</span>
+                <hr class="plano__divisor">
+                <ul class="plano-lista">
+                    <li class="plano-lista__item">1 mes de acesso ilimitado</a></li>
+                    <li class="plano-lista__item">Acesso a todos os cursos</a></li>
+                    <li class="plano-lista__item">Certificado de conclusão</a></li>
+                    <li class="plano-lista__item">Download das aulas</a></li>
+                </ul>
+                <a href="#" class="plano__btn-comprar">Comprar</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="vantagens" id="vantagens">
+        <div class="vantagem">
+            <h2 class="vantagem__titulo">Foco em projeto</h2>
+                <p class="vantagem__descricao">
+                    Mussum ipsum, cacildsvidis litroabertis. Posuere libero varius. Nullama nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+               </p>
+            </div>
+
+            <div class="vantagem">
+                <h2 class="vantagem__titulo">Portfólio incrível</h2>
+                    <p class="vantagem__descricao">
+                        Mussum ipsum, cacildsvidis litroabertis. Posuere libero varius. Nullama nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+                    </p>
+                </div>
+
+                <div class="vantagem">
+                    <h2 class="vantagem__titulo">Aprenda fazendo</h2>
+                        <p class="vantagem__descricao">
+                            Mussum ipsum, cacildsvidis litroabertis. Posuere libero varius. Nullama nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+                        </p>
+                    </div>
+
+                    <div class="vantagem">
+                        <h2 class="vantagem__titulo">Para todas as idades</h2>
+                            <p class="vantagem_descricao">
+                                Mussum ipsum, cacildsvidis litroabertis. Posuere libero varius. Nullama nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+                            </p>
+                        </div>
+
+                        <div class="vantagem">
+                            <h2 class="vantagem__titulo">Atualizado</h2>
+                                <p class="vantagem_descricao">
+                                    Mussum ipsum, cacildsvidis litroabertis. Posuere libero varius. Nullama nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+                                </p>
+                            </div>
+
+                            <div class="vantagem">
+                                <h2 class="vantagem__titulo">Comece hoje</h2>
+                                    <p class="vantagem_descricao">
+                                        Mussum ipsum, cacildsvidis litroabertis. Posuere libero varius. Nullama nisl ut ante blandit hendrerit. Aenean sit amet nisi.
+                                    </p>
+                                </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <div class="newsletter-info">
+            <h2 class="newsletter-info__titulo">newsletter</h2>
+                <p class="newsletter-info__descricao"> Assine e fique por dentro das novidades</p>
+            </div>
+            <form action="" class="newsletter-form">
+                <input type="text" placeholder="seu e-mail" class="newsletter-form_input">
+                <button type="submit" class="newsletter-form_submit">Assinar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__copyright">Este é um projecto que servirá de maquete, para o vosso de final</p>
+         <a href="index.html">
+            <img src="logo.png" alt="Frontbox" class="footer__logo">
+
+         </a>
+    </footer>
+
+</body>
+</html>
